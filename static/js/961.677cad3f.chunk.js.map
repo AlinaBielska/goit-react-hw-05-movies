@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/961.677cad3f.chunk.js","mappings":"6IAMA,UANqB,WACjB,OACI,IAEP,C","sources":["pages/MovieDetails/MovieDetails.jsx"],"sourcesContent":["const MovieDetails = () => {\n    return (\n        null\n    );\n};\n\nexport default MovieDetails;"],"names":[],"sourceRoot":""}
