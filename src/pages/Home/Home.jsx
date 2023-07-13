@@ -1,6 +1,6 @@
 const Home = () => {
     return (
-        null
+        <div>Hello</div>
     );
 };
 
