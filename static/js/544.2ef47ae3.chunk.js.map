@@ -1,1 +1,0 @@
-{"version":3,"file":"static/js/544.2ef47ae3.chunk.js","mappings":"6IAMA,UANa,WACT,OACI,IAEP,C","sources":["pages/Home/Home.jsx"],"sourcesContent":["const Home = () => {\n    return (\n        null\n    );\n};\n\nexport default Home;"],"names":[],"sourceRoot":""}
