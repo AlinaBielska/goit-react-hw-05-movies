@@ -1,7 +1,6 @@
 import { useEffect, useState, Suspense } from "react";
 import { useParams, useLocation, Link, Outlet } from "react-router-dom";
 import api from "utils/api";
-import BackLink from "components/BackLink/BackLink";
 
 const MovieDetails = () => {
     const [details, setDetails] = useState([]);
@@ -41,7 +40,7 @@ const MovieDetails = () => {
     return (
         <>
             <div>
-                <BackLink to={backLinkHref}>Back to products</BackLink>
+                <Link to={backLinkHref}>Back to Home</Link>
                 <div>
                     <img
                         src={
