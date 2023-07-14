@@ -1,3 +1,4 @@
+import PropTypes from 
 const FormSearch = ({ onSubmit }) => {
     return (
         <form onSubmit={onSubmit}>
