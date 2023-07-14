@@ -11,7 +11,6 @@ const Home = () => {
             try {
                 const response = await api.trend(page);
                 setData(response);
-                console.log(data);
             } catch (error) {
                 console.log(error);
             }

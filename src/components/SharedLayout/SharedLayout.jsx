@@ -7,7 +7,7 @@ const SharedLayout = () => {
         <>
             <header>
                 <nav>
-                    <Link to="/" end>Home</Link>
+                    <Link to="/">Home</Link>
                     <Link to="/Movies">Movies</Link>
                 </nav>
             </header>
