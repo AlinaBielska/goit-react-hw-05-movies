@@ -6,7 +6,7 @@ import ListMovies from "components/ListMovies/ListMovies";
 
 const Movies = () => {
     const [data, setData] = useState([]);
-    const [page, setPage] = useState(1);
+    const page = 1;
     const [searchParams, setSearchParams] = useSearchParams();
     const query = searchParams.get("query") ?? "";
 

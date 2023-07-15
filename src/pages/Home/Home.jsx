@@ -4,7 +4,7 @@ import TrendMovies from "components/TrendMovies/TrendMovies";
 
 const Home = () => {
     const [data, setData] = useState([]);
-    const [page, setPage] = useState(1);
+    const page = 1;
 
     useEffect(() => {
         const trendMovies = async () => {
@@ -16,6 +16,7 @@ const Home = () => {
             }
         };
         trendMovies();
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
     return (
